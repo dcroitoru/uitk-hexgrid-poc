@@ -7,5 +7,12 @@
   "author": {
     "name": "Denis Croitoru",
     "url": "https://github.com/dcroitoru"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "Demo",
+      "path": "uitk-hexgrid-poc/Samples/Demo"
+    }
+  ]
 }
