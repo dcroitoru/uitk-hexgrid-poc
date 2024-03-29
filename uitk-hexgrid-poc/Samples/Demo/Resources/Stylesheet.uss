@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  right: 100px;
+  bottom: 100px;
+}
+
+.hex-cell {
+    background-image: resource('hexagon');
+    -unity-background-scale-mode: scale-to-fit;
+    position: absolute;
+    translate: -50% -50%;
+}
+
+.hex-cell-full {
+  background-image: resource('hexagon-hover');
+}
+
+.hex-selection-cell {
+    background-image: resource('hexagon-selection');
+    -unity-background-scale-mode: scale-to-fit;
+    position: absolute;
+    translate: -50% -50%;
+}
+
+.item {
+  position: absolute;
+  transform-origin: center;
+  translate: -50% -50%;
+}
+
+.sword {
+  background-image: resource('sword');
+  width: 200px;
+  height: 50px;
+}
+
+.potion {
+  background-image: resource('potion');
+  width: 100px;
+  height: 100px;
+}

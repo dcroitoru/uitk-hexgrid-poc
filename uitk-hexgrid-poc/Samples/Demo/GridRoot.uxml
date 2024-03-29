@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GDS/Resources/Stylesheet.uss?fileID=7433441132597879392&amp;guid=4b907ff80fccc1c49af49856920314dd&amp;type=3#Stylesheet" />
+    <Style src="project://database/Assets/GDS/Resources/MyStyles.uss?fileID=7433441132597879392&amp;guid=af1ba262860d9e24e8e9dbabeafb3def&amp;type=3#MyStyles" />
+    <ui:VisualElement name="background" style="background-image: resource(&apos;bar_ready&apos;); position: absolute; width: 100%; height: 100%;" />
+    <ui:VisualElement name="container" class="container">
+        <HexGridVE my-int="0" cols="5" rows="5" name="grid" />
+        <ui:VisualElement name="items">
+            <Item name="sword" class="sword" style="top: 101px; left: 452px;" />
+            <Item name="potion" class="potion" style="top: 238px; left: 251px;" />
+            <Item name="sword2" class="sword" style="top: 449px; left: 456px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

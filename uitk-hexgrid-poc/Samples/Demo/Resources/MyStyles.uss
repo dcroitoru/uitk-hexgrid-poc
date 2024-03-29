@@ -1,0 +1,12 @@
+.my-classs {
+}
+
+/* .hex-cell {
+    background-image: resource('hexagon 1');
+    width: 200px;
+    height: 200px;
+    -unity-background-scale-mode: scale-to-fit;
+    position: absolute;
+    transform-origin: center;
+    translate: -50% -50%;
+} */
